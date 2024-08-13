@@ -25,3 +25,6 @@ Simply navigate to the project path and run the following command to start the s
 
 # Issue requests
 To make use of the server, you can use the following command or adapt it to your use case.
+```
+curl -v -X 'GET' 'http://localhost:8080/event?latitude=20.0&longitude=20.00&startTime=2024-08-18T19:00:00Z&endTime=2024-08-18T20:00:00Z'
+```
