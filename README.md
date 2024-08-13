@@ -1,7 +1,7 @@
 # Weather Server
 
 Java based RESTful API service for weather forecasts of upcoming events.
-An event has location as a latitude, longitude, start time and end time value. Latitude and Longitude are floating point values. Start and end time are UTC timestamps.
+An event has location as a latitude and longitude. An event takes place between start time and end time. Latitude and Longitude are floating point values. Start and end time are UTC timestamps.
 
 The server shows, for any event that starts in the next 7 day:
 - air temperature, in Celsius
@@ -11,7 +11,7 @@ The server shows, for any event that starts in the next 7 day:
 The [met.no Located Forecast API](https://api.met.no/weatherapi/locationforecast/2.0/documentation) is used to provide weather forecast information. The forecast information is no more than 2 hours old, except in states where there is failure to contact met.no.
 
 # Requirements
-This software was developed for the follow tools. Some adaptation may or may not be required to run it with different tools or versions of it.
+This software was developed with/for the following tools. Some adaptation may or may not be required to run it with different tools/versions.
 | tool      | version |
 | ----------- | ----------- |
 | Maven      | 3.9.8       |
